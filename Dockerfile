@@ -4,7 +4,6 @@ FROM python:3.13-slim
 # Set environment variables
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
-ENV GPG_HOME=/app/data/gnupg_home
 
 # Install system dependencies
 RUN apt-get update && \
@@ -23,8 +22,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy backend code
 COPY backend/ ./backend/
-COPY backend/data/ ./data/
 
+# Ensure gnupg_home directory exists in container and set GPG_HOME
+RUN mkdir -p /app/backend/data/gnupg_home
+ENV GPG_HOME=/app/backend/data/gnupg_home
 
 # Expose port used by FastAPI / Uvicorn
 EXPOSE 10000
