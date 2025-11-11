@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+python-gnupg
+sqlmodel
+databases
+asyncpg
+psycopg2-binary
+python-multipart
+pydantic
+alembic
+python-dotenv
+cryptography
