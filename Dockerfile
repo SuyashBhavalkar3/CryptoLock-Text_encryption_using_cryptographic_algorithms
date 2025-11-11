@@ -23,7 +23,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy backend code
 COPY backend/ ./backend/
-COPY data/ ./data/
+COPY backend/data/ ./data/
+
 
 # Expose port used by FastAPI / Uvicorn
 EXPOSE 10000
