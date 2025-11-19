@@ -11,7 +11,7 @@ import TextArea from './TextArea';
 import '../styles/layout.css';
 import '../styles/form.css';
 
-const API_URL = "https://cryptolock-text-encryption-using-k3m4.onrender.com/";
+const API_URL = "https://cryptolock-text-encryption-using-k3m4.onrender.com";
 
 
 /**
