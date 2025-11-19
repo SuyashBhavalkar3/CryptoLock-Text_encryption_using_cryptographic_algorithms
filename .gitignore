@@ -1,0 +1,59 @@
+# ------------------------------
+# Python & FastAPI
+# ------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.env
+.venv/
+venv/
+
+# ------------------------------
+# PGP / Crypto Keys (DO NOT COMMIT)
+# ------------------------------
+*.asc
+*.gpg
+*.key
+*.pem
+*.pub
+*.priv
+*.der
+
+# ------------------------------
+# Sensitive Data Folders
+# ------------------------------
+data/
+backend/data/
+
+# ------------------------------
+# SQLite Database
+# ------------------------------
+*.db
+
+# ------------------------------
+# Node / Frontend
+# ------------------------------
+frontend/webapp/node_modules/
+frontend/webapp/dist/
+frontend/webapp/build/
+
+# ------------------------------
+# Editor / OS Files
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Docker
+# ------------------------------
+*.pid
+*.log
+
+# ------------------------------
+# VSCode / IDE Config
+# ------------------------------
+.vscode/
+.idea/
