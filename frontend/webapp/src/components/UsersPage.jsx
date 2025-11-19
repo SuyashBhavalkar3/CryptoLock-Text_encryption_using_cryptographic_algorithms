@@ -8,7 +8,7 @@ import Card, { CardBody, CardHeader, CardFooter } from './Card';
 import FormField from './FormField';
 import '../styles/layout.css';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = "https://cryptolock-text-encryption-using-k3m4.onrender.com/";
 
 /**
  * UsersPage Component
