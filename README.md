@@ -1,8 +1,8 @@
-# 🔐 CryptoLock - GPG Encryption UI
+# CryptoLock - GPG Encryption UI
 
 A super cool, modern, and eye-catching React frontend for GPG encryption/decryption operations. Built with stunning animations, glassmorphism effects, and beautiful gradient designs.
 
-## ✨ Features
+## Features
 
 - **Modern UI Design** - Beautiful gradient backgrounds with glassmorphism effects
 - **Smooth Animations** - Framer Motion animations for seamless transitions
@@ -14,7 +14,7 @@ A super cool, modern, and eye-catching React frontend for GPG encryption/decrypt
 - **Beautiful Gradients** - Cyan, purple, and pink gradient color scheme
 - **Icon Integration** - Lucide icons for beautiful UI elements
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 16+ installed
@@ -43,7 +43,7 @@ npm run dev
 http://localhost:5173
 ```
 
-## 📦 Dependencies
+## Dependencies
 
 ```json
 {
@@ -57,7 +57,7 @@ http://localhost:5173
 }
 ```
 
-## 🎨 Design Features
+## Design Features
 
 ### Color Scheme
 - **Primary**: Cyan (#06b6d4)
@@ -71,7 +71,7 @@ http://localhost:5173
 - **Animations**: Smooth fade-in, slide-in, and hover animations
 - **Glow Effects**: Cyan and purple glow on hover
 
-## 📱 Pages
+## Pages
 
 ### 1. Home
 - Welcome screen with feature showcase
@@ -95,7 +95,7 @@ http://localhost:5173
 - View decrypted message
 - Copy plaintext to clipboard
 
-## 🔌 API Integration
+## API Integration
 
 The frontend communicates with the backend API at `http://127.0.0.1:8000`:
 
@@ -105,7 +105,7 @@ The frontend communicates with the backend API at `http://127.0.0.1:8000`:
 - `POST /decrypt` - Decrypt message
 - `GET /users/{username}/public_key` - Get public key
 
-## 🎯 Usage Workflow
+## Usage Workflow
 
 1. **Create User**: Go to Users page → Create New User
 2. **Generate Keys**: Enter username → Click "Generate & Download"
@@ -122,7 +122,7 @@ The frontend communicates with the backend API at `http://127.0.0.1:8000`:
    - Paste ciphertext
    - Click "Decrypt Message"
 
-## 🛠️ Development
+## Development
 
 ### Build for Production
 ```bash
@@ -143,7 +143,7 @@ src/
 └── assets/        # Static assets
 ```
 
-## 🎓 Technologies Used
+## Technologies Used
 
 - **React 18** - UI library
 - **Vite** - Build tool & dev server
@@ -153,7 +153,7 @@ src/
 - **React Toastify** - Notification system
 - **Tailwind CSS** - Utility-first CSS framework
 
-## 🔒 Security Notes
+## Security Notes
 
 - Private keys are **never** sent to the server
 - Private keys are uploaded locally from user's file system
@@ -161,14 +161,14 @@ src/
 - Passphrase protection for private keys is optional
 - Temporary directories are cleaned up after operations
 
-## 💡 Tips
+## Tips
 
 - **Save Private Keys**: Always backup your downloaded private key files
 - **Remember Passphrases**: Private keys are passphrase-protected for security
 - **Share Public Keys**: Your public key can be shared freely to receive encrypted messages
 - **Copy Encrypted Messages**: Use the copy button to easily share encrypted messages
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### API Connection Error
 - Ensure backend is running on `http://127.0.0.1:8000`
@@ -186,4 +186,4 @@ src/
 
 ---
 
-**CryptoLock** - Making encryption beautiful and accessible! 🔐✨
+**CryptoLock** - Making encryption beautiful and accessible!
