@@ -1,4 +1,5 @@
-# CryptoLock - GPG Encryption UI
+# CryptoLock-Text_encryption_using_cryptographic_algorithms
+
 
 A super cool, modern, and eye-catching React frontend for GPG encryption/decryption operations. Built with stunning animations, glassmorphism effects, and beautiful gradient designs.
 
